@@ -1,2 +1,2 @@
 # scout
-Connecting students to jobs
+Connecting students to jobs 
