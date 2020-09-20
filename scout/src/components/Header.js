@@ -3,15 +3,19 @@ import image from "../images/image.svg";
 
 function Header(){
     return (
-        <div className='header'>
-            <img id='header-image' src={image} alt="image" />
-            <div className= 'header-text'>
-                <span className='header-title'>
+        <div id='header'>
+            
+            <div id='header-image'>
+                <img src={image} alt="image" />
+            </div>
+            
+            <div id= 'header-text'>
+                <span id='header-title'>
                     We couldn't find any jobs <br />
                     so we made this website to help you find one
                 </span>
                 <br />
-                <span className="header-subtitle">
+                <span id="header-subtitle">
                     Scout.
                 </span>
             </div>
