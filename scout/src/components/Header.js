@@ -1,15 +1,19 @@
 import React from "react";
+import image from "../images/image.png";
 
 function Header(){
     return (
         <div className='header'>
-            <span className='header-title'>
-                Company
-            </span>
-            <br />
-            <span className="header-text">
-                We specialise in something ...
-            </span>
+            <img src={image} alt="image" />
+            <div className= 'header-text'>
+                <span className='header-title'>
+                    Just a crowdsourced list of internships.
+                </span>
+                <br />
+                <span className="header-subtitle">
+                    Scout.
+                </span>
+            </div>
         </div>
     );
 }
