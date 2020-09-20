@@ -7,10 +7,14 @@ import Table from './components/Table.js';
 import Footer from './components/Footer.js';
 
 export default function App() {
+    const style = {
+
+    }
   return (
       <div id= 'body'>
           <Header />
           <PhoneInput />
+          <TableHeader />
           <Table />
           <Footer />
       </div>

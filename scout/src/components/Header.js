@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/image.png";
+import image from "../images/image.svg";
 
 function Header(){
     return (
@@ -7,7 +7,8 @@ function Header(){
             <img src={image} alt="image" />
             <div className= 'header-text'>
                 <span className='header-title'>
-                    Just a crowdsourced list of internships.
+                    We couldn't find any jobs <br />
+                    so we made this website to help you find one
                 </span>
                 <br />
                 <span className="header-subtitle">
