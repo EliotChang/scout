@@ -1,9 +1,11 @@
 import React from "react";
-
 function PhoneInput(){
     return (
         <div className='PhoneInput'>
-            *phone input*
+            <form>
+                <input type="text" name="name" />
+                <input type="submit" value="Sign Up" />
+            </form>
         </div>
     );
 }

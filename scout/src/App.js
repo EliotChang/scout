@@ -11,7 +11,6 @@ export default function App() {
       <div id= 'body'>
           <Header />
           <PhoneInput />
-          <TableHeader />
           <Table />
           <Footer />
       </div>
