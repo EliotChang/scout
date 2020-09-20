@@ -19,18 +19,18 @@ function createData(Company, Location, Position, Date) {
 }
 
 const rows = [
-    createData('Google', 'San Francisco', 'Software Engineering Intern', '9/20/2020'),
-    createData('Facebook', 'Chicago', 'Software Engineering New Grad', '9/20/2020'),
-    createData('Netflix', 'New York', 'Software Engineering Intern', '9/20/2020'),
-    createData('Apple', 'Los Angeles', 'Software Engineering Co-op', '9/20/2020'),
-    createData('Microsoft', 'Seattle', 'Software Engineering New Grad', '9/20/2020'),
+    createData('Google', 'San Francisco', 'SWE Intern', '9/20/2020'),
+    createData('Facebook', 'Chicago', 'SWE New Grad', '9/20/2020'),
+    createData('Netflix', 'New York', 'SWE Intern', '9/20/2020'),
+    createData('Apple', 'Los Angeles', 'SWE Co-op', '9/20/2020'),
+    createData('Microsoft', 'Seattle', 'SWE New Grad', '9/20/2020'),
 ];
 
 export default function SimpleTable() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer id= "table" component={Paper}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>

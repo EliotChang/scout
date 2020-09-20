@@ -4,7 +4,7 @@ import image from "../images/image.svg";
 function Header(){
     return (
         <div className='header'>
-            <img src={image} alt="image" />
+            <img id='header-image' src={image} alt="image" />
             <div className= 'header-text'>
                 <span className='header-title'>
                     We couldn't find any jobs <br />
