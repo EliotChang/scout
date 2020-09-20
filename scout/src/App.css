@@ -2,23 +2,66 @@
     background: #5060EB;
     text-align: -webkit-center;
 }
-.tableHeader{
-    min-width: 50%;
-    max-width: 75%;
-    text-align: left;
-    padding: 15px;
-}
 
 #header {
     min-width: 50%;
     max-width: 75%;
 }
+#header-text {
+    padding-top: 100px;
+}
 #header-image {
     height: 250px;
     width: auto;
 }
+@media only screen and (max-width: 900px) {
+    #header-text {
+        text-align: right;
+    }
 
+    #header-image-container {
+        text-align: center;
+    }
+}
 
+@media only screen and (min-width: 900px) {
+    #header-text {
+        text-align: right;
+        position: relative;
+        top: 132px;
+    }
+
+    #header-image-container {
+        text-align: left;
+    }
+}
+
+.input {
+    min-width: 67%;
+    max-width: 75%;
+    text-align: left;
+    height: 48px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    padding-left: 12px;
+}
+
+.submit {
+    min-width: 8%;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #2C3690;
+    color: white;
+    font-weight: bold;
+}
+
+.tableHeader {
+    min-width: 50%;
+    max-width: 75%;
+    text-align: left;
+    padding: 15px;
+}
 #tableHeader-text {
     color: white;
     font-size: large;
@@ -32,67 +75,24 @@
     color: white;
     font-size: x-large;
 }
-
 #header-subtitle {
     color: white;
     font-size: xxx-large;
     font-weight: bold;
 }
+
 #table {
     min-width: 50%;
     max-width: 75%;
 }
+
 .footer {
     min-width: 50%;
     max-width: 75%;
     text-align: right;
     padding: 15px;
 }
-.input {
-    min-width: 67%;
-    max-width: 75%;
-    text-align: left;
-    height: 48px;
-    border-radius: 10px 0 0 10px;
-    border: none;
-    padding-left: 12px;
-}
-.submit {
-    min-width: 8%;
-    height: 50px;
-    border-radius: 0px 10px 10px 0px;
-    border: none;
-    background-color: #2C3690;
-    color: white;
-    font-weight: bold;
-}
+
 #Footer-credits{
     color:white;
 }
-#tableheadcell {
-    font-weight: bold;
-}
-#header-text {
-    padding-top: 100px;
-}
-    @media only screen and (max-width: 900px) {
-        #header-text {
-            text-align: right;
-        }
-
-        #header-image-container {
-            text-align: center;
-        }
-    }
-
-    @media only screen and (min-width: 900px) {
-        #header-text {
-            text-align: right;
-            position: relative;
-            top: 132px;
-        }
-
-        #header-image-container {
-            text-align: left;
-        }
-    } 
