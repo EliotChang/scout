@@ -4,12 +4,7 @@ import image from "../images/image.svg";
 function Header(){
     return (
         <div id='header'>
-            
-            <div id='header-image'>
-                <img src={image} alt="image" />
-            </div>
-            
-            <div id= 'header-text'>
+            <div id='header-text'>
                 <span id='header-title'>
                     We couldn't find any jobs <br />
                     so we made this website to help you find one
@@ -18,7 +13,12 @@ function Header(){
                 <span id="header-subtitle">
                     Scout.
                 </span>
+            </div>            
+            <div id='header-image-container'>
+                <img id = 'header-image' src={image} alt="image" />
             </div>
+            
+
         </div>
     );
 }

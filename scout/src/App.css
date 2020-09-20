@@ -8,17 +8,17 @@
     text-align: left;
     padding: 15px;
 }
+
 #header {
-}
-#header-image {
-    width: auto;
-    height: 50%;
-}
-#header-text {
     min-width: 50%;
     max-width: 75%;
-    text-align: right;
 }
+#header-image {
+    height: 250px;
+    width: auto;
+}
+
+
 #tableHeader-text {
     color: white;
     font-size: large;
@@ -72,3 +72,27 @@
 #tableheadcell {
     font-weight: bold;
 }
+#header-text {
+    padding-top: 100px;
+}
+    @media only screen and (max-width: 900px) {
+        #header-text {
+            text-align: right;
+        }
+
+        #header-image-container {
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 900px) {
+        #header-text {
+            text-align: right;
+            position: relative;
+            top: 132px;
+        }
+
+        #header-image-container {
+            text-align: left;
+        }
+    } 
